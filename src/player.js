@@ -44,6 +44,8 @@ class Player extends GameObject {
 
 			createObject(new Barrier());
 		}
+
+		addScore(1);
 	}
 
 	endGame() {
